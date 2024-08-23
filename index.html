@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+
+    <!-- Titulo -->
+    <h1>Imagens dinâmicas</h1>
+
+    <p>Tente abrir esse site em vários dispositivos diferentes.</p>
+
+    <picture>
+
+        <!-- Foto pequena/Foto terciário -->
+        <source media="(max-width: 750px)" srcset="foto-p.png" type="image/png">
+
+        <!-- Foto media/Foto segundaria -->
+        <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+
+        <!-- Foto grande/Foto principal -->
+        <img src="foto-g.png" alt="Foto grande">
+
+    </picture>
+    
+</body>
+</html>
